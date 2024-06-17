@@ -8,7 +8,7 @@ $db = "cursophp";
 $conn = new mysqli($host, $user, $pass, $db);
 
 $table = "motos";
-$name = "Fazer4";
+$name = "Motona";
 $cc = 150;
 $description = "vroooom";
 
