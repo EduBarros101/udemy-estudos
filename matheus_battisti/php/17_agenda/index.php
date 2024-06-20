@@ -12,8 +12,8 @@ include_once("templates/header.php");
   <h1 id="main-title">Minha Agenda</h1>
 
   <?php if (count($contacts) > 0) : ?>
-    <table class="table" id="contacts-table">
-      <thead>
+    <table class="table table-hover" id="contacts-table">
+      <thead class="table-dark">
         <tr>
           <th scope="col">#</th>
           <th scope="col">Nome</th>
@@ -25,11 +25,11 @@ include_once("templates/header.php");
       <tbody>
         <?php foreach ($contacts as $contact) : ?>
           <tr>
-            <td scope="row"><?= $contact['id'] ?></td>
+            <td scope="row" class="col-id"><?= $contact['id'] ?></td>
             <td scope="row"><?= $contact['name'] ?></td>
             <td scope="row"><?= $contact['phone'] ?></td>
             <td class="actions">
-              <a href="#"><i class="fas fa-eye check-icon"></i></a>
+              <a href="<?= $BASE_URL ?>show.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon"></i></a>
               <a href="#"><i class="fas fa-edit edit-icon"></i></a>
               <button class="delete-btn" type="submit"><i class="fas fa-times delete-icon"></i></button>
             </td>

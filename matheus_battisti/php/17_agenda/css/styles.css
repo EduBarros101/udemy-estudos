@@ -12,9 +12,8 @@
   margin: 0 auto;
 }
 
-#contacts-table thead {
-  color: #fff;
-  background-color: #007bff;
+.col-id {
+  font-weight: bold;
 }
 
 .actions {
