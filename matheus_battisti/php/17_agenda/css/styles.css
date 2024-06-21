@@ -59,7 +59,10 @@
   margin-top: 30px;
 }
 
-/* Contato individual */
+#create-form {
+  display: grid;
+  gap: 10px;
+}
 
 #view-contact-container {
   max-width: 500px;
