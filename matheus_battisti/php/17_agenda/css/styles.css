@@ -75,14 +75,17 @@ button a {
   color: inherit;
 }
 
-#back-button {
+textarea {
+  height: 100px;
+}
+
+#back-button-container {
+  width: 500px;
   margin: 30px auto 0;
 }
 
-/* #back-link {
-  border: 1px solid #007bff;
-  color: #007bff;
-  border-radius: 4px;
-  padding: 5px;
-  text-decoration: none;
-} */
+#create-form,
+#edit-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
