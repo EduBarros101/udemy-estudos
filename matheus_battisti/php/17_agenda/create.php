@@ -26,6 +26,8 @@ include_once("templates/header.php");
       <label for="observations">Insira as Observações</label>
     </div>
 
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+
   </form>
 </div>
 
