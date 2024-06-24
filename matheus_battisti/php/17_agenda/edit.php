@@ -23,8 +23,8 @@ include_once("templates/header.php");
     </div>
 
     <div class="form-floating">
-      <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira as Observações" style="height: 100px;"></textarea>
-      <label for="observations">Insira as Observações</label>
+      <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira as Observações" style="height: 100px;"><?= $contact["observations"] ?></textarea>
+      <label for="observations">Observações</label>
     </div>
 
     <button type="submit" class="btn btn-primary">Atualizar</button>
