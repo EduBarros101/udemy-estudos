@@ -30,7 +30,7 @@ require_once("templates/header.php")
 
       </div>
 
-      <div class="col-md-4" id="login-container">
+      <div class="col-md-4" id="register-container">
         <h2>Criar Conta</h2>
 
         <form action="#" method="post">
