@@ -33,7 +33,7 @@ require_once("templates/header.php")
       <div class="col-md-4" id="register-container">
         <h2>Criar Conta</h2>
 
-        <form action="<?= $BASE_URL ?>auth_process.php" method="post">
+        <form action="<?= $BASE_URL ?>auth_process.php" method="POST">
           <input type="hidden" name="type" value="register">
 
           <div class="mb-3">
