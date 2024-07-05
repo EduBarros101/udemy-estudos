@@ -37,11 +37,6 @@ require_once("templates/header.php")
           <input type="hidden" name="type" value="register">
 
           <div class="mb-3">
-            <label for="email" class="form-label">E-mail:</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail">
-          </div>
-
-          <div class="mb-3">
             <label for="name" class="form-label">Nome:</label>
             <input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome">
           </div>
@@ -49,6 +44,11 @@ require_once("templates/header.php")
           <div class="mb-3">
             <label for="lastname" class="form-label">Sobrenome:</label>
             <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Digite seu sobrenome">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail">
           </div>
 
           <div class="mb-3">
