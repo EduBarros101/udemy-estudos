@@ -29,7 +29,7 @@ interface UserDAOInterface
   public function update(User $user);
   public function changePassword(User $user);
   public function verifyToken($ptotected = false);
-  public function setTokenSession($token, $redirect = true);
+  public function setTokenToSession($token, $redirect = true);
   public function authenticateUser($email, $password);
   public function findByEmail($email);
   public function findById($id);
