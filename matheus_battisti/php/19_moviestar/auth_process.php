@@ -33,6 +33,16 @@ if ($type === "register") {
         // criação de Token e Senha
         $userToken = $user->generateToken();
         $finalPassword = $user->generatePassword($password);
+
+        $user->name = $name;
+        $user->lastname = $lastname;
+        $user->email = $email;
+        $user->password = $finalPassword;
+        $user->token = $userToken;
+
+        $auth = true;
+
+        $userDao->create($user, $auth);
       } else {
 
         // Enviar mensagem de erro. Usuário já existe.
