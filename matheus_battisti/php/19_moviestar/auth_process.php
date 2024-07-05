@@ -26,7 +26,7 @@ if ($type === "register") {
     if ($password === $confirmpassword) {
 
       // verificar se o e-mail já está cadastrado no sistema.
-      if ($userDao->findByEmail($email) === "false") {
+      if ($userDao->findByEmail($email) === false) {
 
         echo "Nenhum usuário encontrado.";
       } else {
