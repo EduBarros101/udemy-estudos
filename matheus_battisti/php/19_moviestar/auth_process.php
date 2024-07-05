@@ -35,7 +35,7 @@ if ($type === "register") {
         $message->setMessage("E-mail já cadastrado. Use outro e-mail.", "error", "back");
       }
     } else {
-      $message->setMessage("As senhas não são iguais.", "error", "back");
+      $message->setMessage("Confirmação de senha inválida.", "error", "back");
     }
   } else {
     // Enviar mensagem de erro de dados faltantes.
